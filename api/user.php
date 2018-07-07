@@ -139,7 +139,7 @@
       $name = $request->getQueryParams()['name'];
       $id = $request->getQueryParams()['id'];
 
-      echo $name."-".$id;
+      echo $request->getBody();
 
    });
 
