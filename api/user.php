@@ -124,7 +124,7 @@
       $name = $request->getParsedBody()['name'];
       $id = $request->getParsedBody()['id'];
    
-      echo $name."-".$id;
+      echo $request->getBody();
 
    });
 
@@ -139,7 +139,7 @@
       $name = $request->getQueryParams()['name'];
       $id = $request->getQueryParams()['id'];
 
-      echo $request->getBody();
+      echo $name."-".$id;
 
    });
 
