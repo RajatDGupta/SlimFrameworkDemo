@@ -1,11 +1,11 @@
 <?php
 
 
-
    //slim_api_fremwork
 
    //Get All user from databse
    //url is "http://localhost/Projects/slim_api_fremwork/v1/users"
+
    $app->get('/users', function () {
     
    require_once('dbConnect.php');
@@ -19,7 +19,7 @@
     }
 
     if(isset($data)){
-      echo json_encode($data);   	
+      echo json_encode($data, JSON_PRETTY_PRINT);   	
     }
 
     mysqli_close($conn);
@@ -43,7 +43,7 @@
    	$data[]=$result->fetch_assoc();
    
     if(isset($data)){
-      echo json_encode($data);   	
+      echo json_encode($data, JSON_PRETTY_PRINT);   	
     }
 
     mysqli_close($conn);
@@ -77,7 +77,7 @@
         else{
           echo json_encode(array('response' =>"Unsucessfull" ));
         }
-         mysqli_close($conn);
+         mysqli_close($conn, JSON_PRETTY_PRINT);
 
    });
 
