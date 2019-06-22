@@ -1,14 +1,640 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ChangeListManager">
+    <list default="true" id="e56c6e85-0463-4934-a834-6cda636a9438" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/absolute-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/build-tools/deploy-docker-hub-tag.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/build-tools/loadersByExtension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/cypress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dev-helpers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/swagger-editor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/validation.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/dist/validation.worker.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/docker-run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/docs/drag-and-drop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/docs/helpers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/docs/import.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/make-webpack-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/release/.release-it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/release/check-for-breaking-changes.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/release/get-changelog.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/ast/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/ast/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-keywords/get-completions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-keywords/get-keywords-for-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-keywords/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-keywords/keyword-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-keywords/wrap-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/get-completions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/get-keywords-for-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/keyword-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/oas3-objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-oas3-keywords/wrap-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-refs/get-completions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-refs/get-refs-for-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-refs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-refs/wrap-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-snippets/get-completions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-snippets/get-snippets-for-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-snippets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-snippets/snippets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest-snippets/wrap-actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest/fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-autosuggest/spec-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor-metadata/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/brace-snippets-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/editor-container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/editor.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/editor.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/components/read-only-watermark.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/editor-helpers/marker-placer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/editor-plugins/gutter-click.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/editor-plugins/hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/editor-plugins/json-to-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/editor-plugins/tab-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/editor/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/SCHEMA_CONSTRUCTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/oas3-schema.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/swagger2-schema.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator.worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator/condense-errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator/jsonSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator/path-translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/json-schema-validator/validator/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/jump-to-path/components.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/jump-to-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/jump-to-path/jump-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/jump-to-path/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/local-storage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/local-storage/petstore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/performance/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/refs-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/split-pane-mode/components/split-pane-mode.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/split-pane-mode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-base/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/2and3/operations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/2and3/parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/2and3/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/2and3/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/2and3/schemas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/form-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/oas3/operations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/oas3/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/plugins/validate-semantic/validators/security.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/standalone-layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/styles/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/styles/topbar-insert-forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/styles/topbar-modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/styles/topbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/dropdown/Dropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/dropdown/DropdownItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/AddForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/FormChild.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/FormDropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/FormInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/FormInputWrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/FormMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/InsertForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/InsertFormInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/components/InsertFormList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-data-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/add-operation-tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/contact-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/external-documentation-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/info-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/license-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/operation-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/path-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/select-operation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/server-variable-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/servers-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/tag-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/form-objects/tags-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/helpers/form-data-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/forms/helpers/validation-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/modal/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-insert/topbar-insert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-menu-edit-convert/components/convert-definition-menu-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-menu-edit-convert/components/convert-modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-menu-edit-convert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-menu-file-import_file/components/ImportFileMenuItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar-menu-file-import_file/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar/DropdownMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar/logo_small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/standalone/topbar/topbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/src/window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/swagger-editor-dist-package/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/swagger-editor-dist-package/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/swagger-editor-dist-package/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/swagger-editor-dist-package/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/swagger-editor-dist-package/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/static/documents/petstore.openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/static/documents/petstore.swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/support/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/e2e/tests/bugs/1862.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/mocks/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/path-translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/ast/ast-manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/editor-metadata/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/editor/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/editor/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1394.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1480.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1489.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1511.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1519.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1672.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1709.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1711.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1797.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1808.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1832.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/1853.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/2.0-schema-additional-properties.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/3.0.0-schema-additional-properties.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/parameter-exclusive-schema-content.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/response-schema-restrictions.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/json-schema-validator/test-documents/security-scheme-http-bearerFormat.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/2and3/operations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/2and3/parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/2and3/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/2and3/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/2and3/schemas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/bugs/1817.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/form-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/oas3/operations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/oas3/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/refs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/security.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/plugins/validate-semantic/validate-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/standalone/topbar-insert/form-data-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/standalone/topbar-insert/form-objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/standalone/topbar-insert/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/test/unit/standalone/topbar-insert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack-dist-bundle.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack-dist.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack-hot-dev-server.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack-standalone.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack.check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/editor/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger-editor/swagger-ui.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SlimFrameworkDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SlimFrameworkDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-editor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/build-tools/deploy-docker-hub-tag.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/build-tools/loadersByExtension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/cypress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dev-helpers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/swagger-editor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/validation.worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/dist/validation.worker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/docker-run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/docs/drag-and-drop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/docs/helpers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/docs/import.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-editor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/make-webpack-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-editor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/release/.release-it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/release/check-for-breaking-changes.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/release/get-changelog.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/ast/ast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/ast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-keywords/get-completions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-keywords/get-keywords-for-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-keywords/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-keywords/keyword-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-keywords/wrap-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/get-completions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/get-keywords-for-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/keyword-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/oas3-objects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-oas3-keywords/wrap-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-refs/get-completions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-refs/get-refs-for-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-refs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-refs/wrap-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-snippets/get-completions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-snippets/get-snippets-for-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-snippets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-snippets/snippets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest-snippets/wrap-actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest/fn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-autosuggest/spec-selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor-metadata/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/brace-snippets-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/editor-container.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/editor.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/editor.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/components/read-only-watermark.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/editor-helpers/marker-placer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/editor-plugins/gutter-click.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/editor-plugins/hook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/editor-plugins/json-to-yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/editor-plugins/tab-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/reducers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/editor/spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/SCHEMA_CONSTRUCTS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/oas3-schema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/swagger2-schema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator.worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator/condense-errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator/jsonSchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator/path-translator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/json-schema-validator/validator/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/jump-to-path/components.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/jump-to-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/jump-to-path/jump-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/jump-to-path/spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/local-storage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/local-storage/petstore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/performance/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/refs-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/split-pane-mode/components/split-pane-mode.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/split-pane-mode/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-base/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/2and3/operations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/2and3/parameters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/2and3/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/2and3/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/2and3/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/form-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/oas3/operations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/oas3/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/parameters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/plugins/validate-semantic/validators/security.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/standalone-layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/styles/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/styles/topbar-insert-forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/styles/topbar-modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/styles/topbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/dropdown/Dropdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/dropdown/DropdownItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/AddForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/FormChild.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/FormDropdown.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/FormInput.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/FormInputWrapper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/FormMap.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/InsertForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/InsertFormInput.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/components/InsertFormList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-data-readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/add-operation-tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/contact-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/external-documentation-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/info-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/license-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/operation-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/path-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/select-operation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/server-variable-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/servers-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/tag-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/form-objects/tags-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/helpers/form-data-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/forms/helpers/validation-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/modal/Modal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-insert/topbar-insert.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-menu-edit-convert/components/convert-definition-menu-item.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-menu-edit-convert/components/convert-modal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-menu-edit-convert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-menu-file-import_file/components/ImportFileMenuItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar-menu-file-import_file/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar/DropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar/logo_small.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/standalone/topbar/topbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/src/window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/swagger-editor-dist-package/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/swagger-editor-dist-package/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/swagger-editor-dist-package/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/swagger-editor-dist-package/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/swagger-editor-dist-package/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/static/documents/petstore.openapi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/static/documents/petstore.swagger.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/support/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/e2e/tests/bugs/1862.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/mocks/ace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/path-translator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/ast/ast-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/editor-metadata/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/editor/editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/editor/spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1394.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1480.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1489.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1511.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1519.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1672.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1709.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1711.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1797.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1808.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1832.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/1853.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/2.0-schema-additional-properties.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/3.0.0-schema-additional-properties.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/parameter-exclusive-schema-content.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/response-schema-restrictions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/json-schema-validator/test-documents/security-scheme-http-bearerFormat.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/2and3/operations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/2and3/parameters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/2and3/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/2and3/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/2and3/schemas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/bugs/1817.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/form-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/oas3/operations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/oas3/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/parameters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/security.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/plugins/validate-semantic/validate-helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/standalone/topbar-insert/form-data-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/standalone/topbar-insert/form-objects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/standalone/topbar-insert/form-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/test/unit/standalone/topbar-insert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack-dist-bundle.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack-dist.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack-hot-dev-server.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack-standalone.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack.check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger-editor/webpack.config.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/swagger-editor" />
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="57" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1863" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SlimFrameworkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SlimFrameworkDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swagger-editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/swagger-editor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e56c6e85-0463-4934-a834-6cda636a9438" name="Default Changelist" comment="" />
+      <created>1561186707049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561186707049</updated>
+      <workItem from="1561186709795" duration="1908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1908000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="24" width="1863" height="1056" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32948583" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32948583" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Swagger doc started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swagger doc started" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swagger-editor/swagger-ui-dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
