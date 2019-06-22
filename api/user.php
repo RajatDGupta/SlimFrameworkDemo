@@ -1,6 +1,6 @@
 <?php
 
-
+      
    //slim_api_fremwork
 
    //Get All user from databse
