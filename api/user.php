@@ -9,6 +9,8 @@
    $app->get('/users', function () {
     
    require_once('dbConnect.php');
+
+   $data=array();
    
    $sql = "SELECT * FROM `users` ORDER BY id";
 
@@ -18,10 +20,8 @@
    	  $data[]=$row;
     }
 
-    if(isset($data)){
-      echo json_encode($data, JSON_PRETTY_PRINT);   	
-    }
-
+    echo json_encode(array("User"=>$data) , JSON_PRETTY_PRINT);   	
+    
     mysqli_close($conn);
    
    });
@@ -40,10 +40,10 @@
   
     $result = $conn->query($sql);
 
-   	$data[]=$result->fetch_assoc();
+   	$data=$result->fetch_assoc();
    
     if(isset($data)){
-      echo json_encode($data, JSON_PRETTY_PRINT);   	
+      echo json_encode(array("User"=>$data), JSON_PRETTY_PRINT);   	
     }
 
     mysqli_close($conn);
